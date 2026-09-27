@@ -35,9 +35,14 @@ The model is the fast semantic layer, not the operator:
 request -> Company AI/Jev judgment -> VibeOperator policy -> semantic executor -> effect-after proof
 ```
 
-Sanitized public exports of the CommerceAI runtime, VibeOperator and PC Relay will be linked here
-after their own secret, PII, history, dependency and license reviews. The private monorepo is not
-being published directly. See [LINK-GRAPH.md](LINK-GRAPH.md) for the release contract.
+The first reviewed runtime component is now public:
+
+- [CommerceAI PC Relay](https://github.com/gokhansahinbas/commerceai-pc-relay) — the native,
+  evidence-first Windows executor.
+
+VibeOperator and the portable CommerceAI runtime will be linked after their own secret, PII,
+history, dependency and license reviews. The private monorepo is not being published directly.
+See [LINK-GRAPH.md](LINK-GRAPH.md) for the release contract.
 
 ## License
 

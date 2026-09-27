@@ -19,8 +19,10 @@ Planned public graph:
 Ollama model page <-> company-ai
                         |-- commerceai-runtime
                         |-- vibeoperator
-                        `-- pc-relay
+                        `-- commerceai-pc-relay (published)
 ```
+
+Published executor: https://github.com/gokhansahinbas/commerceai-pc-relay
 
 The private `gokhansahinbas/commerceai` repository is the current engineering source of truth. It
 is not itself approved for public release.
