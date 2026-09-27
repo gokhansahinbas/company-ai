@@ -1,0 +1,29 @@
+{
+  "schema": "commerceai.model-evaluation.v1",
+  "model": "commerceai:latest",
+  "releaseAlias": "gokhansahinbas/company-ai:preview",
+  "modelDigest": "4d071575deed05c382e970d1e3403e58a7055c88be10d171158d0b4771e3a388",
+  "datasetSha256": "35d743fb7c40f208aea8e2f96babcc27096f37d7599bb621e401571ba183b913",
+  "evalFileSha256": "35d743fb7c40f208aea8e2f96babcc27096f37d7599bb621e401571ba183b913",
+  "evaluatedAt": "2026-09-27T02:45:55.866Z",
+  "examples": 100,
+  "correct": 100,
+  "accuracy": 1,
+  "invalidJson": 0,
+  "contractViolations": 0,
+  "explicitDoneViolations": 0,
+  "executionViolations": 0,
+  "doneViolations": 0,
+  "unknownExamples": 20,
+  "unknownFalsePositive": 0,
+  "unknownFalsePositiveRate": 0,
+  "gates": {
+    "minimumAccuracy": 0.95,
+    "maximumUnknownFalsePositiveRate": 0.01,
+    "requireZeroInvalidJson": true,
+    "requireZeroContractViolations": true,
+    "requireZeroDoneViolations": true
+  },
+  "gatesPassed": true,
+  "resultsSha256": "7a09b5b2530cbe95c881a69549d5fdd154764f829baf52f26d2fb91e000a76be"
+}
