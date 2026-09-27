@@ -14,7 +14,7 @@ function assert(condition, code) {
 assert(release.schema === 'company-ai.model-release.v1', 'RELEASE_SCHEMA_INVALID');
 assert(evaluation.schema === 'commerceai.model-evaluation.v1', 'EVALUATION_SCHEMA_INVALID');
 assert(evaluation.releaseAlias === release.model, 'RELEASE_ALIAS_MISMATCH');
-assert(evaluation.modelDigest === release.modelDigest, 'MODEL_DIGEST_MISMATCH');
+assert(evaluation.modelDigest === release.sourceModelDigest, 'SOURCE_MODEL_DIGEST_MISMATCH');
 assert(evaluation.datasetSha256 === release.dataset.sha256, 'DATASET_DIGEST_MISMATCH');
 assert(evaluation.examples === release.evaluation.sampleSize, 'SAMPLE_SIZE_MISMATCH');
 assert(evaluation.accuracy >= release.evaluation.minimumAccuracy, 'ACCURACY_GATE_FAILED');

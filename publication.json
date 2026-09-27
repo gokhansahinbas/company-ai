@@ -1,0 +1,13 @@
+{
+  "schema": "company-ai.publication-evidence.v1",
+  "publishedAt": "2026-09-27T02:53:00Z",
+  "registry": "Ollama",
+  "model": "gokeyyyn/company-ai:preview",
+  "modelPage": "https://ollama.com/gokeyyyn/company-ai:preview",
+  "manifestDigest": "0979316ef32ab44b9afa8cdbcb67de21129734ebd2a0b78993d89f8ab234d16f",
+  "sourceModelDigest": "4d071575deed05c382e970d1e3403e58a7055c88be10d171158d0b4771e3a388",
+  "packageBytes": 22621314995,
+  "pullVerified": true,
+  "modelPageVerified": true,
+  "repositoryBacklinkVerified": true
+}

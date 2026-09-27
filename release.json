@@ -2,15 +2,16 @@
   "schema": "company-ai.model-release.v1",
   "release": "preview-v0.1.0",
   "channel": "preview",
-  "model": "gokhansahinbas/company-ai:preview",
-  "modelDigest": "4d071575deed05c382e970d1e3403e58a7055c88be10d171158d0b4771e3a388",
+  "model": "gokeyyyn/company-ai:preview",
+  "modelDigest": "0979316ef32ab44b9afa8cdbcb67de21129734ebd2a0b78993d89f8ab234d16f",
+  "sourceModelDigest": "4d071575deed05c382e970d1e3403e58a7055c88be10d171158d0b4771e3a388",
   "packageBytes": 22621314995,
   "format": "gguf",
   "quantization": "Q4_K_M",
   "parameterSize": "35.5B",
   "license": "Apache-2.0",
   "sourceRepository": "https://github.com/gokhansahinbas/company-ai",
-  "modelPage": "https://ollama.com/gokhansahinbas/company-ai",
+  "modelPage": "https://ollama.com/gokeyyyn/company-ai:preview",
   "dataset": {
     "kind": "synthetic-registry-derived",
     "workflowCount": 226,
@@ -29,5 +30,5 @@
     "requireZeroDoneViolations": true
   },
   "claimBoundary": "Customized Ollama runtime preview; not proven to be the output of the repository QLoRA pipeline.",
-  "publicationStatus": "LOCAL_CANDIDATE"
+  "publicationStatus": "PUBLISHED_AND_VERIFIED"
 }

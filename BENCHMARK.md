@@ -31,7 +31,7 @@ and after the run. A release passes only when all conditions hold:
 node training/commerceai-lora/build-intent-dataset.mjs
 
 node training/commerceai-lora/evaluate-ollama-model.mjs \
-  --model=gokhansahinbas/company-ai:preview \
+  --model=gokeyyyn/company-ai:preview \
   --eval-file="$HOME/.local/state/commerceai/training/intent-foundry-v1/eval.jsonl" \
   --dataset-sha256=35d743fb7c40f208aea8e2f96babcc27096f37d7599bb621e401571ba183b913 \
   --maximum-examples=100 \

@@ -8,7 +8,7 @@ must produce effect-after evidence before work is considered complete.
 ## Install
 
 ```bash
-ollama run gokhansahinbas/company-ai:preview
+ollama run gokeyyyn/company-ai:preview
 ```
 
 The preview is a 35.5B sparse model package in GGUF Q4_K_M format. The immutable Ollama digest is

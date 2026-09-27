@@ -7,11 +7,12 @@ perform allowed work, and only effect-after evidence can close the task.
 ## Preview model
 
 ```bash
-ollama run gokhansahinbas/company-ai:preview
+ollama run gokeyyyn/company-ai:preview
 ```
 
-This tag is digest-bound to
-`4d071575deed05c382e970d1e3403e58a7055c88be10d171158d0b4771e3a388`. Read the
+This published tag resolves to manifest
+`0979316ef32ab44b9afa8cdbcb67de21129734ebd2a0b78993d89f8ab234d16f`; its evaluated source
+manifest is `4d071575deed05c382e970d1e3403e58a7055c88be10d171158d0b4771e3a388`. Read the
 [model card](MODEL-CARD.md) before use. The preview is a customized runtime package, not a proven
 output of the repository's QLoRA pipeline.
 
@@ -21,7 +22,7 @@ The 2026-09-27 release candidate passed 100/100 deterministic intent-contract ex
 invalid JSON, contract violations, UNKNOWN false positives, execution claims or terminal `DONE`
 claims. The receipt is in [evaluation.json](evaluation.json), the reproducible method is in
 [BENCHMARK.md](BENCHMARK.md), and `node verify-release.mjs --live` checks both the receipt and the
-locally installed immutable digest.
+locally installed published manifest.
 
 This benchmark is narrow. It proves typed intent compilation for its sampled synthetic cases; it
 does not prove general intelligence or end-to-end task success.
